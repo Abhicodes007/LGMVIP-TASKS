@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper{
+    display: flex;
+    background-color: #4158D0;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    overflow: hidden;
+  }
+
+  h2{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight:900;
+    font-display: underline;
+    text-decoration: underline;
+  }
+
+  /* left side form */
+
+  #registration-form {
+    height: 100vh;
+    margin-bottom: 20px;
+    width: 45%;
+    margin-left: 20px;
+  }
+
+  #registration-form label {
+    display: inline-block;
+    width: 100px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+  }
+
+  #registration-form input[type="text"] {
+    width: 400px;
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px 0;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+
+  #registration-form input[type="email"] {
+    width: 400px;
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px 0;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+
+  #registration-form input[type="tel"] {
+    width: 400px;
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px 0;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+
+  #registration-form select {
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    margin: 20px 0;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+
+
+
+  #registration-form input[type="checkbox"] {
+    width: 20px;
+    border-radius: 10px;
+    height: 20px;
+    margin: 20px 0;
+    font-size: larger;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+
+ 
+
+  #registration-form input[type="submit"] {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 600;
+    padding: 15px 20px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: white;
+  }
+
+
+   /* vertical line */
+  .vl {
+    border-left: 6px solid rgb(2, 86, 5);
+    height: 100vh;
+    margin-right: 20px;
+  }
+
+  
+  /* right side data output */
+
+
+  #display-data{
+    width: 50%;
+    position: relative;
+
+   
+
+  }
+  .card {
+    display: inline-block;
+    width: 400px;
+    padding: 30px;
+    margin-right: 10px;
+    color: #f7f7f8;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: seagreen;
+    font-size: larger;
+    font-weight: 500;
+    padding-top: 10px;
+  
+
+  }
+
+  
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+  }
+  .card p {
+    margin-bottom: 15px;
+  }
+
+ 
+  
